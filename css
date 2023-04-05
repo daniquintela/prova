@@ -1,0 +1,64 @@
+.cabeçalho {
+    text-align: center;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding-top: 1rem;
+    color: crimson;
+    cursor: pointer;
+    background-color:crimson;
+    padding: 20px;
+    width: 100%;
+}
+
+a {
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+iframe {
+    position: relative;
+    left: 680px;
+}
+.titulo {
+    color: crimson;
+    font-family: sans-serif;
+    position: relative;
+    left: 200px;
+}
+
+.corpo {
+    color: gray;
+    font-family: sans-serif;
+    position: relative;
+    left: 200px;
+}
+
+img {
+    background-color: antiquewhite;
+    position: relative;
+    left: 900px;
+    bottom: 12cm;
+    width: 180px;
+    border: 3px solid crimson;
+}
+
+table {
+    tab-size: 500px;
+}
+
+footer {
+    background-color:crimson;
+    padding: 220px;
+    width: 100%;
+    position: absolute;
+    top: 31cm;
+}
+
+.fundo {
+    background-color: antiquewhite;
+}
