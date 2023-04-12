@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+}
+
+nav ul {
+    color: white;
+    font-family: sans-serif;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+header {
+    background-color: white;
+    width: 90%;
+    background-size: cover;
+    text-align: center;
+}
+
+img {
+    width: 111%;
+}
+
+.titulo {
+    color: crimson;
+    font-family: sans-serif;
+    position: relative;
+    left: 150px;
+    bottom: -4cm;
+}
+
+.corpo {
+    color: gray;
+    font-family: sans-serif;
+    position: relative;
+    left: 150px;
+    bottom: -4.5cm;
+}
+
+section#imagens {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    left: 900px;
+    bottom: 8cm;
+    width: 180px;
+
+}
+
+.linha {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagem img {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 2px crimson;
+}
+
+.imagem h5 {
+    background-color: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    width: 100%;
+}
+
+footer {
+    background-color:crimson;
+    padding: 30px;
+}
+
+.fundo {
+    background-color: antiquewhite;
+}
